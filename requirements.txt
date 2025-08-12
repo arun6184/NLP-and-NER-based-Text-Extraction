@@ -1,0 +1,6 @@
+pillow
+pytesseract
+easyocr
+opencv-python
+spacy
+rapidfuzz
