@@ -1,4 +1,5 @@
-🧠 NLPxNER – Named Entity Recognition WebApp
+🧠 NLPxNER – Named Entity Recognition Pipeline
+
 📌 Project Description
 
 NLPxNER is a lightweight web application that performs Named Entity Recognition (NER) on user-provided text. It allows users to paste or upload text and instantly extract key entities such as names, locations, organizations, dates, medical terms, and custom-defined entities.
