@@ -41,9 +41,11 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 4️⃣ Run the app
-python nlpXner.py <image path with name and extension> ocr_tesseract
+
+python nlpXner.py [image path with name and extension }ocr_tesseract
 
 📦 requirements.txt
+
 flask
 spacy
 torch
