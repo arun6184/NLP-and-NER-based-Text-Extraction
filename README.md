@@ -30,25 +30,7 @@ Flask – for web backend
 
 SpaCy / Hugging Face Transformers – for NLP models
 
-Pytesseract + Pillow – for OCR (text from images/PDFs)
-
-Bootstrap/Tailwind – for frontend UI
-
-📂 Repository Structure
-NLPxNER/
-│── app.py                 # Main Flask application  
-│── static/                # CSS/JS files  
-│── templates/             # HTML templates (Jinja2)  
-│── models/                # Pre-trained models or configs  
-│── uploads/               # User uploaded files  
-│── requirements.txt       # Python dependencies  
-│── README.md              # Project documentation  
-│── .gitignore             # Git ignore file  
-
-⚙️ Installation
-1️⃣ Clone the repository
-git clone https://github.com/your-username/NLPxNER.git
-cd NLPxNER
+Pytesseract + Pillow – for OCR (text from images)
 
 2️⃣ Create a virtual environment (recommended)
 python3 -m venv venv
@@ -59,11 +41,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
 4️⃣ Run the app
-python app.py
-
-5️⃣ Open in browser
-
-Go to 👉 http://127.0.0.1:5000/
+python nlpXner.py <image path with name and extension> ocr_tesseract
 
 📦 requirements.txt
 flask
